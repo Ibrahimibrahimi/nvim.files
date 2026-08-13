@@ -4,7 +4,7 @@
 mkdir -p nvim
 
 # copy from ~/.config/nvim
-cp ~/.config/nvim/{init.lua,lazy-lock.json,LICENSE,lua} nvim/ -r
+cp ~/.config/nvim/.stylua.toml,init.lua,lazy-lock.json,LICENSE,lua} nvim/ -r
 
 echo "Copied !"
 
