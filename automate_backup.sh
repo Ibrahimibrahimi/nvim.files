@@ -1,7 +1,10 @@
 # TODO put this script in ~/.config/autostart
 
+# make the folder if not found
+mkdir -p nvim
+
 # copy from ~/.config/nvim
-cp ~/.config/nvim/{init.lua,lazy-lock.json,LICENSE,lua,README.md} . -r
+cp ~/.config/nvim/{init.lua,lazy-lock.json,LICENSE,lua} nvim/ -r
 
 echo "Copied !"
 
